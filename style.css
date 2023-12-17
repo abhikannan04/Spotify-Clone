@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu+Condensed&display=swap');
+
+p {
+    width: 200px;
+    margin: 0px 20px;
+    color: chartreuse;
+    font-weight: bold;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+ 
+h1 {
+    margin: 15px 150px;
+    font-weight: bold;
+    text-shadow: 2px 3px 5px greenyellow;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: greenyellow;
+}
+
+.navbar {
+    background-color: black;
+    color: aliceblue;
+    height: 45px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+
+}
+
+.navbar ul li {
+    padding: 0px 13px;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    margin-top: 3px;
+    width: 40px;
+}
+
+span {
+    font-weight: bold;
+}
+
+.container {
+    margin: 15px auto;
+    border: 5px solid black;
+    width: 80vw;
+    height: 77vh;
+    background: url("/images/bg.jpg") no-repeat center/cover;
+    border-radius: 15px;
+    color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+
+}
+
+.songItem {
+    width: 20vw;
+    height: 40px;
+    background-color: wheat;
+    color: black;
+    border-radius: 20px;
+    margin: 15px auto;
+    display: flex;
+    align-items: center;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+.songItem:hover
+{
+    transition: all .5s ease-in;
+    opacity: .5;
+    width: 25vw;
+    height: 45px;
+    background-color: chartreuse;
+}
+
+.songItem img {
+    height: 40px;
+    border-radius: 30px;
+}
+
+.songname {
+    margin-left: 50px;
+    padding: 4px;
+}
+
+.time {
+    margin: 0px 8px;
+    cursor: pointer;
+}
+
+.songinfo {
+    position: absolute;
+    display: flex;
+    left: 10vw;
+    bottom: 0px;
+    height: 50px;
+    width: 250px;
+}
+
+.songinfo img {
+    height: 20px;
+    width: 60px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in;
+}
+
+.bottomText {
+    width: 150px;
+    margin-left: 20px;
+}
+
+.bottom {
+    position: absolute;
+    bottom: 0px;
+    background-color: black;
+    height: 90px;
+    width: 100vw;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icons {
+    margin: 8px 10px;
+    cursor: pointer;
+}
+
+
+#progressbar {
+    width: 80vw;
+    cursor: pointer;
+    background-color: yellowgreen;
+}
+
+.time {
+    margin: auto;
+}
+
+
+@media only screen and (max-width:1000px) {
+    body {
+        background: black;
+
+    }
+}
