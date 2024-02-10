@@ -14,13 +14,13 @@ let mastersongname = document.getElementById('mastersongname');
 
 let songs =
     [{ name: "let me love you ", filePath: '/songs/1.mp3', coverPath: '/covers/1.jpg' },
-    { name: "dard der disco", filePath: '/songs/2.mp3', coverPath: '/covers/2.jpg' },
-    { name: "Abhilash Album", filePath: '/songs/3.mp3', coverPath: '/covers/3.jpg' },
-    { name: "Anna Album", filePath: '/songs/4.mp3', coverPath: '/covers/4.jpg' },
-    { name: "Appa Album", filePath: '/songs/5.mp3', coverPath: '/covers/5.jpg' },
-    { name: "Amma ALbum", filePath: '/songs/6.mp3', coverPath: '/covers/6.jpg' },
+    { name: "Dard er disco", filePath: '/songs/2.mp3', coverPath: '/covers/2.jpg' },
+    { name: "Album", filePath: '/songs/3.mp3', coverPath: '/covers/3.jpg' },
+    { name: "Popular Album", filePath: '/songs/4.mp3', coverPath: '/covers/4.jpg' },
+    { name: " Bay me ", filePath: '/songs/5.mp3', coverPath: '/covers/5.jpg' },
+    { name: "ALbum", filePath: '/songs/6.mp3', coverPath: '/covers/6.jpg' },
     { name: "let me love by ", filePath: '/songs/7.mp3', coverPath: '/covers/7.jpg' },
-    { name: "enjoy enjamii", filePath: '/songs/8.mp3', coverPath: '/covers/10.jpg' },
+    { name: "enjoy enjami", filePath: '/songs/8.mp3', coverPath: '/covers/10.jpg' },
     { name: "let me go out ", filePath: '/songs/9.mp3', coverPath: '/covers/9.jpg' },
     ]
 
